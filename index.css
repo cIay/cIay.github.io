@@ -7,17 +7,16 @@ video, embed {
 }
 
 a:link, a:visited {
-  color: rgb(29, 37, 112);
+  color: rgb(16, 32, 188);
   text-decoration: none;
 }
 
 a:hover, a:active {
-  color: rgb(29, 37, 112, 0.6);
+  color: rgba(16, 32, 188, 0.6);
 }
 
 .project {
   padding: 0px 0px 5px 8px;
-  margin: 0px 0px 0px 0px;
-  background-color: rgb(177, 226, 177, 0.6);
+  background-color: rgba(177, 226, 177, 0.6);
 }
 
