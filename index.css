@@ -7,17 +7,29 @@ video, embed {
   margin: 0px 8px 0px 0px;
 }
 
+h2 > a {
+  transition: letter-spacing 0.4s;	
+}
+
+h2 > a:hover, h2 > a:active {
+  letter-spacing: 3px;
+}
+
 a:link, a:visited {
   color: rgb(16, 32, 188);
   text-decoration: none;
 }
 
 a:hover, a:active {
-  color: rgba(16, 32, 188, 0.6);
+  color: rgba(66, 92, 248);
 }
 
 .project {
   padding: 0px 0px 5px 8px;
   background-color: rgba(177, 226, 177, 0.6);
+  transition: background-color 0.2 ease-out;
 }
 
+.project:hover {
+  background-color: rgba(177, 226, 177, 1.0);
+}
