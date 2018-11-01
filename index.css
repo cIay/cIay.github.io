@@ -1,3 +1,4 @@
+
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
 }
@@ -8,7 +9,7 @@ video, embed {
 }
 
 h2 > a {
-  transition: letter-spacing 0.4s;	
+  transition: letter-spacing 0.4s;  
 }
 
 h2 > a:hover, h2 > a:active {
@@ -27,9 +28,5 @@ a:hover, a:active {
 .project {
   padding: 0px 0px 5px 8px;
   background-color: rgba(177, 226, 177, 0.6);
-  transition: background-color 0.2 ease-out;
-}
-
-.project:hover {
-  background-color: rgba(177, 226, 177, 1.0);
+  isolation: isolate;
 }
