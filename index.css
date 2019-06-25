@@ -1,11 +1,22 @@
 
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
+  background-color: rgb(44, 69, 78);
+  background-image: url("images/oilspill.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 video, embed, img {
   box-shadow: 0px 0px 6px 2px rgb(29, 37, 112);
   margin: 0px 8px 0px 0px;
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 1% 0 0 0;
 }
 
 h2 > a {
@@ -26,7 +37,8 @@ a:hover, a:active {
 }
 
 .project {
-  padding: 0px 0px 5px 8px;
-  background-color: rgba(177, 226, 177, 0.6);
+  padding: .1% 1% 1% 1%;
+  margin: 5% 8% 0% 8%;
+  background: linear-gradient(60deg, rgba(177, 226, 177, 0.6) 15%, transparent);
   isolation: isolate;
 }
